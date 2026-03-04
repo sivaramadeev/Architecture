@@ -1,0 +1,5 @@
+{
+  "name": "GCP Architect Assistant",
+  "description": "AI-powered Google Cloud architecture designer that generates diagrams, alternative solutions, and cost estimates.",
+  "requestFramePermissions": []
+}

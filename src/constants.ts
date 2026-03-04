@@ -1,0 +1,27 @@
+import { GcpServiceType } from "./types";
+
+export const GCP_ICON_URLS: Record<string, string> = {
+  [GcpServiceType.COMPUTE_ENGINE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/compute/compute-engine.png',
+  [GcpServiceType.CLOUD_RUN]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/compute/run.png',
+  [GcpServiceType.GKE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/compute/kubernetes-engine.png',
+  [GcpServiceType.CLOUD_FUNCTIONS]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/compute/functions.png',
+  [GcpServiceType.APP_ENGINE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/compute/app-engine.png',
+  [GcpServiceType.CLOUD_STORAGE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/storage/storage.png',
+  [GcpServiceType.CLOUD_SQL]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/database/sql.png',
+  [GcpServiceType.SPANNER]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/database/spanner.png',
+  [GcpServiceType.FIRESTORE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/database/firestore.png',
+  [GcpServiceType.BIGTABLE]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/database/bigtable.png',
+  [GcpServiceType.BIGQUERY]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/analytics/bigquery.png',
+  [GcpServiceType.PUBSUB]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/analytics/pubsub.png',
+  [GcpServiceType.LOAD_BALANCER]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/network/load-balancing.png',
+  [GcpServiceType.VPC]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/network/virtual-private-cloud.png',
+  [GcpServiceType.CLOUD_CDN]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/network/cdn.png',
+  [GcpServiceType.CLOUD_DNS]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/network/dns.png',
+  [GcpServiceType.IAM]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/security/iam.png',
+  [GcpServiceType.SECRET_MANAGER]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/security/secret-manager.png',
+  [GcpServiceType.CLOUD_LOGGING]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/devtools/logging.png',
+  [GcpServiceType.CLOUD_MONITORING]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/devtools/monitoring.png',
+  [GcpServiceType.API_GATEWAY]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/gcp/network/api-gateway.png',
+  [GcpServiceType.EXTERNAL_USER]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/generic/device/mobile.png',
+  [GcpServiceType.INTERNET]: 'https://raw.githubusercontent.com/mingrammer/diagrams/master/resources/generic/network/internet.png',
+};
